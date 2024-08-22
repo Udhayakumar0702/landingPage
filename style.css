@@ -1,0 +1,658 @@
+/*root colors */
+:root {
+  --dark-color: #222222;
+  --orange-color: #FA7436;
+  --normalHash-color: #666666;
+}
+
+/* Volkhov
+Poppins */
+
+/*base styling */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+
+}
+
+.wrapper {
+  max-width: 1134px;
+  margin: 0 auto;
+}
+
+nav {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  position: fixed;
+  
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  list-style: none;
+}
+
+nav ul a {
+  font-size: 16px;
+  color: var(--dark-color);
+  text-decoration: none;
+
+}
+nav ul a:hover {
+  color: var(--dark-color);
+  text-decoration: none;
+  }
+
+
+.loginbtn {
+  color: #FA7436;
+  margin: 30px;
+
+}
+
+.loginsin {
+  background-color: var(--orange-color);
+  color: aliceblue;
+  padding: 10px 30px;
+  text-align: center;
+  display: inline-block;
+  border-radius: 5px;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.header-content{
+  display: flex;
+  padding-top: 50px;
+  align-items: center;
+  justify-content: center;
+}
+.header-content-page{
+  padding-right: 40px;
+  
+
+}
+.header-page{
+  padding-right: 40px;
+}
+.header-page h3{
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  font-weight: normal;
+
+}
+.header-page p{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: var(--normalHash-color);
+
+}
+.btn-Explore{
+  background-color: var(--orange-color);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* header end */
+.hero-section {
+  display: flex;
+   padding-top: 50px;
+  align-items: center;
+  justify-content: space-between;
+
+
+}
+
+.hero-section .left h1 {
+  color: var(--dark-color);
+  font-family: "Volkhov", serif;
+  line-height: 125%;
+  margin-bottom: 0;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: bold;
+  
+}
+
+span {
+  color: var(--orange-color);
+}
+
+.hero-section .left p {
+  color: var(--dark-color);
+  font-family: "Poppins", sans-serif;
+  color: var(--normalHash-color);
+
+}
+
+.btn-Discover {
+  padding-top: 60px;
+
+}
+
+.btn-Discover a {
+  color: var(--orange-color);
+  padding: 16px;
+  border: 1px solid #FA7436;
+  border-radius: 5px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  text-decoration: none;
+
+
+}
+
+.right {
+  align-self: flex-end;
+}
+
+.right img {
+  height: 520px;
+  vertical-align: middle;
+}
+
+/* header end */
+
+
+/* Things you  */
+.Travel-Agency {
+  padding-top: 100px;
+  text-align: center;
+}
+
+ .wrapper .Travel-left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+} 
+
+.Travel-Agency .Travel-left h1 {
+
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 40px;
+
+
+}
+
+.Travel-Agency p {
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 16px;
+
+}
+.discounts-boxModal{
+  padding-top: 50px;
+
+}
+.boxModal {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 60px;
+  align-items: center;
+  gap: 15px;
+
+}
+.boxModal .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.boxModal h3{
+  font-size: 16px;
+}
+
+.boxModal p{
+  text-align: left;
+  font-family: "Poppins", sans-serif;
+  color: var(--normalHash-color);
+  font-size: 14px;
+  
+
+}
+
+/* Travel-Agency End */
+
+/* Exclusive deals*/
+
+.Exclusive-deals{
+  padding-top: 100px;
+}
+
+.Exclusive-deals h1{
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 40px;
+  margin-right: 106px;
+}
+.Exclusive-deals p{
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 16px;
+  margin-right: 106px;
+
+}
+
+.discounts-boxModal{
+  padding: 10px;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+.discounts-boxModal .discounts-box{
+  
+
+}
+.discount-img-box{
+  margin: 14px;
+}
+.discount-img-box h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color:var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 17px;
+  align-items: center;
+}
+.discount-img-box h1 img{
+  width:"25px";
+   height:"25px";
+   margin: 0px 3px;
+   
+
+}
+.discount-img-box-span{
+     margin-right: 22px;
+     color: #666666; 
+     font-size: 14px;
+     align-content: center;
+}
+.discount-img-box h5{
+  font-family: "Poppins", sans-serif;
+  color:var(--normalHash-color);
+  display: flex;
+  justify-content: space-between;
+}
+.discount-img-box h4 span{
+  font-family: "Poppins", sans-serif;
+  color:var(--normalHash-color);
+  display: flex;
+  justify-content: space-between;
+
+}
+.discount-img-box-h5-span{
+  margin-right: 38px;
+}
+.discount-box-span{
+  text-decoration: line-through; 
+  color: #666666;
+  margin-right: 10px;
+  background-color: none;
+}
+.btn-descounts{
+  padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
+
+
+/* vacation Star */
+
+.vacation{
+  padding-top: 100px;
+}
+.vacation-Title{
+  display: flex;
+  justify-content: center;
+}
+.vacation-Title h1{
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 40px;
+ 
+
+}
+.vacation-Title p{
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  text-align: center;
+  font-size: 16px;
+}
+.vacation-Title img{
+    margin: 3%;
+    width: 100px;
+    height: 100px;
+}
+.btn-vacation{
+  display: flex;
+  justify-content: flex-end;
+  gap: 25px;
+}
+.vacation-box{
+
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+.vacation-box .vacation-box-content{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+}
+.vacation-img-box{
+  margin: 14px;
+}
+.vacation-img-box h1{
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  color: var(--dark-color);
+  display: flex;
+  justify-content: space-between;
+  margin-right: 17px;
+
+}
+.vacation-img-box h5{
+   display: flex;
+   justify-content: space-between;
+   color: var(--normalHash-color);
+}
+/* vacation page End */
+
+.about{
+
+  padding-top: 100px;
+
+}
+.about-pages{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 100px;
+}
+.apout-left h1{
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  font-size: 40px;
+
+}
+.apout-left p{
+  font-family: "Poppins", sans-serif;
+  color: var(--normalHash-color);
+  font-size: 16px;
+
+}
+
+.about-right{
+  padding-top: 36px;
+}
+.about-right .about-right-paragraph{
+  font-size: 14px;
+  padding-right: 10px;
+  margin: -10px 66px;
+  color: var(--normalHash-color);
+}
+
+.btn-about{
+  display: flex;
+  justify-content: flex-start;
+  gap: 25px;
+}
+
+/* about end */
+
+/* blog page start */
+
+.blog{
+  padding-top: 100px;
+}
+.blog-section{
+  
+}
+.blog-section h2 {
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  font-size: 40px;
+  text-align: center;
+}
+.blog-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-top: 20px;
+}
+.blog-card {
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.blog-card h3 {
+  font-family: "Poppins", sans-serif;
+  color: var(--dark-color);
+  font-size: 16px;
+  
+  margin: 15px;
+}
+
+.blog-card p {
+  font-size: 0.9em;
+  color: gray;
+  margin: 15px;
+}
+.dot {
+  height: 15px;
+  width: 15px;
+  background-color: var(--orange-color);
+  border-radius: 50%;
+  display: flex;
+}
+.dot1{
+  height: 15px;
+  width: 15px;
+  background-color: var(--normalHash-color);
+  border-radius: 50%;
+  display: flex;
+  opacity: 0.3;
+
+}
+
+/* blog page end */
+
+.footre-page{
+  padding-top: 100px;  
+}
+.footer-blog{
+  
+
+}
+.subscribe-container{
+  width: 100%;
+  background-color: var(--orange-color);
+  padding: 20px 50px;
+  height: 400px;
+  border-radius: 25px;
+}
+.subscribe-container h5{
+  display: flex;
+  justify-content: flex-end;
+  margin: -5px -49px;
+}
+
+
+
+.subscribe-container h2 {
+  font-family: "Volkhov", serif;
+  color: var(--dark-color);
+  font-size: 40px;
+  text-align: center;
+  color: white;
+  margin-top: 2px;
+}
+
+
+
+.input-group {
+  position: relative;
+  display: flex;
+  align-items: center;
+  border: 2px solid #ddd;
+  overflow: hidden; 
+  max-width: 400px; 
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+  width: 90%;
+  border-radius: 5px;
+}
+
+.input-group i {
+  position: absolute;
+  left: 15px; 
+  font-size: 18px; 
+  color: #999; 
+}
+
+.input-group input {
+  flex: 1; 
+  padding: 16px 38px 9px 50px; 
+  font-size:16px; 
+  outline: none; 
+}
+
+.input-group input::placeholder {
+  color: #ccc; 
+  font-style: "Poppins", sans-serif;
+}
+
+.input-group button {
+  background-color: var(--orange-color); 
+  border: none; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  cursor: pointer; 
+  border-radius: 10px;
+  transition: background-color 0.3s ease; 
+}
+
+.input-group button:hover {
+  background-color: #ffffff; /* Darker shade on hover */
+}
+
+
+
+.footer-cotainer{
+  padding-top: 30px;
+}
+.footer-cotainer .wrapper{
+  display: flex;
+  justify-content: space-around;
+}
+.footer-left p{
+  font-size: 14px;
+  font-family: "Poppins", sans-serif;
+  color: var(--normalHash-color);
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Reduced gap between icons */
+}
+
+.social-icons a {
+  display: inline-block;
+  width: 30px;  /* Smaller width */
+  height: 30px; /* Smaller height */
+  line-height: 30px;
+  text-align: center;
+  color: #fff;
+  background-color: #333;
+  border-radius: 50%;
+  font-size: 16px; /* Smaller font size */
+  transition: background-color 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color:var(--orange-color)
+}
+.footer-rights{
+  display: flex;
+  justify-content: space-around;
+
+  gap: 100px;
+}
+
+.footer-rights > div {
+  flex: 1;
+  margin-right: 30px;
+}
+
+.footer-rights > div:last-child {
+  margin-right: 0;
+}
+
+.footer-rights h4 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.footer-rights ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-rights ul li {
+  margin-bottom: 10px;
+}
+
+.footer-rights ul li a {
+  text-decoration: none;
+  color: #666;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.footer-rights ul li a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
